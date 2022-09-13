@@ -1,0 +1,23 @@
+.marquee{
+    background:black;
+    display:flex;
+    align-items:center;
+    padding:40px;
+    
+}
+.marquee__text{
+    font-size:3rem;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight:bold;
+    color:#fff;
+}
+
+@media only screen and (max-width: 730px){
+    .marquee__text{
+        font-size:1.6rem;
+    }
+    .marquee{
+    padding:25px;
+    }
+}

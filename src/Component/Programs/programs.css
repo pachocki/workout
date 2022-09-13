@@ -1,0 +1,115 @@
+.programs{
+    display:flex;
+    flex-direction: column;
+    gap:4rem;
+    position: relative;
+    background:#383838;
+    padding-bottom:7em;
+   
+    
+}
+.programs__title {
+    color:#fff;
+    font-size:5em;
+    padding:2rem;
+    text-transform: capitalize;
+}
+.program__categories{
+    display: flex;
+    max-width: 96%;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1em;
+}
+.category__card{
+    display: flex;
+    flex-direction: column;
+    background: #00000080;
+    border-radius: 7px;
+    gap:1em;
+    padding:10px;
+    color:#fff;
+    height:40vh;
+}
+.category__card>:nth-child(1){
+    width:50px;
+    height:50px;
+    fill:rgb(171 255 0);
+}
+.category__card>:nth-child(2){
+font-weight:bold;
+}
+.category__card span{
+    font-size:2rem;
+}
+
+.marquee__programs{
+    position: relative;
+    top: 8em;
+}
+@media only screen and (max-width: 1170px) {
+    .category__card span{
+        font-size:1.6rem;
+    }
+}
+@media only screen and (max-width: 930px){
+    .program__categories{
+        gap:5px;
+    }
+    .category__card>:nth-child(1){
+        height:40px;
+    }
+    .programs__title{
+        font-size:3.8rem;
+    }
+    .category__card span{
+        font-size:1.4rem;
+    }
+    .category__card{
+        height:37vh;
+    }
+   
+}
+@media only screen and (max-width: 730px){
+    .programs__title{
+        font-size:3rem;
+    }
+    .program__categories{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .category__card span{
+        font-size:1.6rem;
+    }
+    .programs__title{
+        font-size:2.5rem;
+    }
+    .program__categories{
+        max-width:100%;
+    }
+}
+@media only screen and (max-width: 460px){
+    .category__card span{
+        font-size:1.45rem;
+    }
+    .category__card>:nth-child(2){
+        font-size:1.4rem;
+    }
+    .programs{
+        gap:2rem;
+        padding-bottom:3rem;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .category__card span{
+        font-size:1.2rem;
+    }
+    .category__card {
+        height: 22vh;
+        padding:1rem 10px;
+    }
+    .program__categories{
+        grid-template-columns:1fr;
+    }
+}
