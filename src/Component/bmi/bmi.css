@@ -1,0 +1,73 @@
+.bmi__calculator {
+  background-image: url(../../Assets/images/parallax.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 4rem;
+  height: 85vh;
+  overflow:hidden;
+}
+.bmi__title {
+  font-size: 5rem;
+}
+.bmi__calculator__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+  align-items: center;
+  background: #191919b0;
+  border-radius: 10px;
+  padding: 2em;
+  text-align: center;
+}
+.bmi__btn {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 960px) {
+  .bmi__title {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .bmi__title {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .bmi__title {
+    font-size: 2.2rem;
+  }
+  .input__label {
+    font-size: 1.6rem;
+  }
+  .bmi__input {
+    gap: 1rem;
+  }
+  
+}
+@media only screen and (max-width: 450px) {
+    .bmi__title{
+        font-size:1.9rem;
+    }
+    input[type=number]{
+        font-size:1.2rem;
+        width:200px;
+      }
+      .input__label{
+        font-size:1.4rem;
+      }
+      .bmi__input{
+        gap:10px;
+      }
+}

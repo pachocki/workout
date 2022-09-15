@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.App {
+  color:black;
+  background:#0f0f0f;
+  background-image: url(./Assets/images/noise.png);
+  background-blend-mode: soft-light;
+  background-size: contain;
+  mix-blend-mode: overlay;
+  display:flex;
+  flex-direction:column;
+  font-family: 'Inter', sans-serif;
+
+}
+
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+

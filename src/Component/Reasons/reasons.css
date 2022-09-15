@@ -1,0 +1,124 @@
+.reason {
+  margin: 2rem;
+}
+.reason__container {
+  display: flex;
+  width: 70%;
+  position: relative;
+  margin: 10em auto;
+  justify-content: center;
+  gap: 2rem;
+}
+.reason__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reason__title {
+  font-size: 5em;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.reason__right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.reason__right span {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.reason__right span svg {
+  color: chartreuse;
+}
+/*Media queries*/
+@media only screen and (max-width: 1600px) {
+  .reason__container {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  .reason__container {
+    margin: 5em auto;
+  }
+  .reason__title {
+    font-size: 3rem;
+  }
+  .reason__right {
+    gap: 1.5rem;
+  }
+  .reason__right span {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .reason__title {
+    font-size: 2.5rem;
+  }
+  .reason__right span {
+    font-size: 1.1rem;
+    font-weight: lighter;
+  }
+  .reason__right {
+    gap: 10px;
+  }
+  .reason {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .reason__container {
+    width: 98%;
+    gap: 1rem;
+  }
+  .reason__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .reason__left {
+    width: 50%;
+  }
+  .reason__right span {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .reason__container {
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    margin: 5rem 0 0 0;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .reason__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .reason__right {
+    width: 95%;
+  }
+  .reason__left {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+  }
+  .reason__left img {
+    width: 50%;
+  }
+  
+}
+@media only screen and (max-width: 480px) {
+
+.reason__container {
+  margin: 8rem 0 0 0;
+  gap:3rem;
+}
+}
