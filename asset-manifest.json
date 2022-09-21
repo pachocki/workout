@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/workout/static/css/main.ce0d2a33.css",
-    "main.js": "/workout/static/js/main.c9b0f516.js",
+    "main.css": "/workout/static/css/main.d4597592.css",
+    "main.js": "/workout/static/js/main.1ab298f4.js",
     "static/media/testimonials3.webp": "/workout/static/media/testimonials3.097c81163f32bcf1d448.webp",
+    "static/media/heroexcercise.jpg": "/workout/static/media/heroexcercise.b60723ba6aa87c3c690a.jpg",
     "static/media/testimonials2.webp": "/workout/static/media/testimonials2.f16787ee5090124f86ff.webp",
     "static/media/testimonials1.webp": "/workout/static/media/testimonials1.e63753805c57049dee60.webp",
+    "static/media/back.png": "/workout/static/media/back.df5d933901d494932edd.png",
+    "static/media/neck.png": "/workout/static/media/neck.a752d0eaea7366aa2b7c.png",
+    "static/media/chest.png": "/workout/static/media/chest.31c215b2c971bf2f6a9a.png",
+    "static/media/waist.png": "/workout/static/media/waist.f067439261be1efd0fc9.png",
+    "static/media/cardio.png": "/workout/static/media/cardio.89854235d4d80866605f.png",
+    "static/media/shoulders.png": "/workout/static/media/shoulders.d583d3787e26fe4d6054.png",
+    "static/media/lower legs.png": "/workout/static/media/lower legs.ca10590677f58d31f805.png",
+    "static/media/upper arms.png": "/workout/static/media/upper arms.6367478ff5ee3ce8c510.png",
+    "static/media/upper legs.png": "/workout/static/media/upper legs.57e04756b0aa8b48b00b.png",
+    "static/media/lower arms.png": "/workout/static/media/lower arms.ac74b5e09af4379f2ab7.png",
     "static/media/paski.png": "/workout/static/media/paski.7fbe1a4c2df41112df40.png",
     "static/media/hero.png": "/workout/static/media/hero.5adbb05a57680809ae5a.png",
+    "static/media/all.png": "/workout/static/media/all.b3b88423e28841675428.png",
     "static/media/about2.webp": "/workout/static/media/about2.2e707a7998685c7f1894.webp",
     "static/media/noise.png": "/workout/static/media/noise.f0bf04ba4913a3cfe84e.png",
     "static/media/parallax.webp": "/workout/static/media/parallax.e019f8091f654ecc32c6.webp",
     "static/media/about3.webp": "/workout/static/media/about3.3e4d0d5034324c884894.webp",
     "static/media/logo.png": "/workout/static/media/logo.fdd08e0d82e127cd953f.png",
     "index.html": "/workout/index.html",
-    "main.ce0d2a33.css.map": "/workout/static/css/main.ce0d2a33.css.map",
-    "main.c9b0f516.js.map": "/workout/static/js/main.c9b0f516.js.map"
+    "main.d4597592.css.map": "/workout/static/css/main.d4597592.css.map",
+    "main.1ab298f4.js.map": "/workout/static/js/main.1ab298f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce0d2a33.css",
-    "static/js/main.c9b0f516.js"
+    "static/css/main.d4597592.css",
+    "static/js/main.1ab298f4.js"
   ]
 }
