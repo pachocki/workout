@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/workout/static/css/main.d8094306.css",
+    "main.css": "/workout/static/css/main.ab22fd48.css",
     "main.js": "/workout/static/js/main.7d0f62fe.js",
     "static/media/testimonials3.webp": "/workout/static/media/testimonials3.097c81163f32bcf1d448.webp",
     "static/media/heroexcercise.jpg": "/workout/static/media/heroexcercise.b60723ba6aa87c3c690a.jpg",
@@ -25,11 +25,11 @@
     "static/media/about3.webp": "/workout/static/media/about3.3e4d0d5034324c884894.webp",
     "static/media/logo.png": "/workout/static/media/logo.fdd08e0d82e127cd953f.png",
     "index.html": "/workout/index.html",
-    "main.d8094306.css.map": "/workout/static/css/main.d8094306.css.map",
+    "main.ab22fd48.css.map": "/workout/static/css/main.ab22fd48.css.map",
     "main.7d0f62fe.js.map": "/workout/static/js/main.7d0f62fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8094306.css",
+    "static/css/main.ab22fd48.css",
     "static/js/main.7d0f62fe.js"
   ]
 }
