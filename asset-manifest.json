@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/workout/static/css/main.1588f8b5.css",
-    "main.js": "/workout/static/js/main.f03a617f.js",
+    "main.css": "/workout/static/css/main.3ab89169.css",
+    "main.js": "/workout/static/js/main.fee45e05.js",
     "static/media/testimonials3.webp": "/workout/static/media/testimonials3.097c81163f32bcf1d448.webp",
     "static/media/heroexcercise.jpg": "/workout/static/media/heroexcercise.b60723ba6aa87c3c690a.jpg",
+    "static/media/heromeal.jpg": "/workout/static/media/heromeal.24b373774d655f3cd77c.jpg",
     "static/media/testimonials2.webp": "/workout/static/media/testimonials2.f16787ee5090124f86ff.webp",
     "static/media/testimonials1.webp": "/workout/static/media/testimonials1.e63753805c57049dee60.webp",
     "static/media/back.png": "/workout/static/media/back.df5d933901d494932edd.png",
@@ -25,11 +26,11 @@
     "static/media/about3.webp": "/workout/static/media/about3.3e4d0d5034324c884894.webp",
     "static/media/logo.png": "/workout/static/media/logo.fdd08e0d82e127cd953f.png",
     "index.html": "/workout/index.html",
-    "main.1588f8b5.css.map": "/workout/static/css/main.1588f8b5.css.map",
-    "main.f03a617f.js.map": "/workout/static/js/main.f03a617f.js.map"
+    "main.3ab89169.css.map": "/workout/static/css/main.3ab89169.css.map",
+    "main.fee45e05.js.map": "/workout/static/js/main.fee45e05.js.map"
   },
   "entrypoints": [
-    "static/css/main.1588f8b5.css",
-    "static/js/main.f03a617f.js"
+    "static/css/main.3ab89169.css",
+    "static/js/main.fee45e05.js"
   ]
 }
