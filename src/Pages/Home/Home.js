@@ -5,6 +5,7 @@ import Reasons from '../../Component/Reasons/Reasons'
 import Pricing from '../../Component/Pricing/Pricing'
 import BmiCalc from '../../Component/bmi/BmiCalc'
 import Testimonials from '../../Component/Testimonials/Testimonials'
+import ToTop from "../../hooks/ToTop"
 const Home = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const Home = () => {
         <Pricing/>
         <BmiCalc/>
         <Testimonials/>
-      
+      <ToTop/>
     </div>
   )
 }
